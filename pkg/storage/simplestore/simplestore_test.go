@@ -4,6 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"math/rand"
+	"sync"
 	"testing"
 	"time"
 
@@ -123,6 +124,51 @@ func TestSimpleStore_Iterate_stop(t *testing.T) {
 	if err == nil {
 		t.Fatal("expected error but got none")
 	}
+}
+
+func TestSimpleStore_parallel_r_w(t *testing.T) {
+	dir := t.TempDir()
+	store, err := simplestore.New(dir)
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer store.Close()
+	chs := make(map[string]swarm.Chunk)
+	for i := 0; i < 1000; i++ {
+		ch := testingc.GenerateTestRandomChunk()
+		if _, err = store.Put(ch); err != nil {
+			t.Fatal(err)
+		}
+		chs[ch.Address().ByteString()] = ch
+	}
+	var wg sync.WaitGroup
+	var o sync.Once
+	var ccc = make(chan struct{})
+	wg.Add(1)
+	go func() {
+		defer wg.Done()
+		<-ccc
+		ch := testingc.GenerateTestRandomChunk()
+		if _, err = store.Put(ch); err != nil {
+			t.Log(err)
+		}
+	}()
+
+	err = store.Iterate(func(ch swarm.Chunk) (bool, error) {
+		if !ch.Equal(chs[ch.Address().ByteString()]) {
+			return true, errors.New("chunks not equal")
+		}
+		o.Do(func() {
+			close(ccc)
+		})
+		time.Sleep(1 * time.Millisecond)
+		return false, nil
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	wg.Wait()
+
 }
 
 func BenchmarkSimpleStore_Simple(b *testing.B) {
