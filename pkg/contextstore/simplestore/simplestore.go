@@ -1,6 +1,3 @@
-// Package shed provides a simple abstraction components to compose
-// more complex operations on storage data organized in fields and indexes.
-//
 package simplestore
 
 import (
@@ -87,7 +84,7 @@ func (s *Store) Get(address swarm.Address) (swarm.Chunk, error) {
 	return ch, err
 }
 
-func (s *Store) Iterate(f storage.IterateChunkFn) error {
+func (s *Store) Iterate(f contextstore.IterateChunkFn) error {
 	return s.db.View(func(txn *bolt.Tx) error {
 		c := txn.Bucket(chunksBucket).Cursor()
 		for k, v := c.First(); k != nil; k, v = c.Next() {
@@ -129,6 +126,18 @@ func (s *Store) Has(address swarm.Address) (bool, error) {
 	}
 
 	return err == nil, err
+}
+
+// Count returns the number of stored chunks in
+// the Store.
+func (s *Store) Count() (n int, err error) {
+	err = s.db.View(func(txn *bolt.Tx) error {
+		b := txn.Bucket(chunksBucket)
+		n = b.Stats().KeyN
+		return nil
+	})
+
+	return n, err
 }
 
 func (s *Store) Delete(addr swarm.Address) error {

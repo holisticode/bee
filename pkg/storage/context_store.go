@@ -3,8 +3,7 @@ package storage
 import "github.com/ethersphere/bee/pkg/swarm"
 
 type ContextStorer interface {
-	GetContext(ctx ...Context)
-	SyncContext()
+	UploadContext() SimpleChunkStorer
 }
 
 type Context int
@@ -33,17 +32,3 @@ type SimpleChunkStorer interface {
 }
 
 type IterateChunkFn func(swarm.Chunk) (stop bool, err error)
-
-/*
-
-protocols:
-- context for retrieval, push, pull
-
-api:
-- uploads
-- downloads
-- pinning
-
-stewardship
-
-*/

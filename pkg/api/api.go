@@ -101,6 +101,7 @@ type server struct {
 	auth            authenticator
 	tags            *tags.Tags
 	storer          storage.Storer
+	contextStore    storage.ContextStorer
 	resolver        resolver.Interface
 	pss             pss.Interface
 	traversal       traversal.Traverser
