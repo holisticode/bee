@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/node"
+	"github.com/holisticode/bee/pkg/node"
 	"github.com/kardianos/service"
 	"github.com/spf13/cobra"
 )

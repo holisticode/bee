@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/auth"
-	"github.com/ethersphere/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/auth"
+	"github.com/holisticode/bee/pkg/logging"
 )
 
 const (

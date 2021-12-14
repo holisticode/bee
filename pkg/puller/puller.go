@@ -14,12 +14,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/intervalstore"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/pullsync"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/topology"
+	"github.com/holisticode/bee/pkg/intervalstore"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/pullsync"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/topology"
 )
 
 var (

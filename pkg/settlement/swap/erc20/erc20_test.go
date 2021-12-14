@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/settlement/swap/erc20"
-	"github.com/ethersphere/bee/pkg/transaction"
-	backendmock "github.com/ethersphere/bee/pkg/transaction/backendmock"
-	transactionmock "github.com/ethersphere/bee/pkg/transaction/mock"
+	"github.com/holisticode/bee/pkg/settlement/swap/erc20"
+	"github.com/holisticode/bee/pkg/transaction"
+	backendmock "github.com/holisticode/bee/pkg/transaction/backendmock"
+	transactionmock "github.com/holisticode/bee/pkg/transaction/mock"
 	"github.com/ethersphere/go-sw3-abi/sw3abi"
 )
 

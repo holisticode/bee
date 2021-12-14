@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/file/addresses"
-	"github.com/ethersphere/bee/pkg/file/joiner"
-	filetest "github.com/ethersphere/bee/pkg/file/testing"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/file"
+	"github.com/holisticode/bee/pkg/file/addresses"
+	"github.com/holisticode/bee/pkg/file/joiner"
+	filetest "github.com/holisticode/bee/pkg/file/testing"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage/mock"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 func TestAddressesGetterIterateChunkAddresses(t *testing.T) {

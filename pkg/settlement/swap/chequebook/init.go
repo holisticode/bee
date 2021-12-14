@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/settlement/swap/erc20"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/transaction"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/settlement/swap/erc20"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/transaction"
 )
 
 const (

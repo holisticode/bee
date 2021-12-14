@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/debugapi"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/p2p"
-	pingpongmock "github.com/ethersphere/bee/pkg/pingpong/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/debugapi"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/holisticode/bee/pkg/p2p"
+	pingpongmock "github.com/holisticode/bee/pkg/pingpong/mock"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 func TestPingpong(t *testing.T) {

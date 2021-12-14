@@ -12,7 +12,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage"
 )
 
 const (

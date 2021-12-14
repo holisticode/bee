@@ -10,12 +10,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/bee/pkg/cac"
-	"github.com/ethersphere/bee/pkg/encryption"
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/sctx"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/tags"
+	"github.com/holisticode/bee/pkg/cac"
+	"github.com/holisticode/bee/pkg/encryption"
+	"github.com/holisticode/bee/pkg/file"
+	"github.com/holisticode/bee/pkg/sctx"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/tags"
 	"golang.org/x/crypto/sha3"
 )
 

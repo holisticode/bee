@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethersphere/bee/pkg/node"
+	"github.com/holisticode/bee/pkg/node"
 	"github.com/spf13/cobra"
 )
 

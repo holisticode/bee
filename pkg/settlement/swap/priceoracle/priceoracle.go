@@ -13,8 +13,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/transaction"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/transaction"
 	"github.com/ethersphere/go-price-oracle-abi/priceoracleabi"
 )
 

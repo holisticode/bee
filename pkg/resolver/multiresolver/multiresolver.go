@@ -11,10 +11,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/resolver"
-	"github.com/ethersphere/bee/pkg/resolver/client/ens"
-	"github.com/ethersphere/bee/pkg/resolver/multiresolver/multierror"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/resolver"
+	"github.com/holisticode/bee/pkg/resolver/client/ens"
+	"github.com/holisticode/bee/pkg/resolver/multiresolver/multierror"
 )
 
 // Ensure MultiResolver implements Resolver interface.

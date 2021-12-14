@@ -15,12 +15,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/blocker"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/topology"
-	"github.com/ethersphere/bee/pkg/transaction"
+	"github.com/holisticode/bee/pkg/blocker"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/topology"
+	"github.com/holisticode/bee/pkg/transaction"
 	lru "github.com/hashicorp/golang-lru"
 )
 

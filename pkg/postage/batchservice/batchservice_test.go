@@ -13,13 +13,13 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/postage/batchservice"
-	"github.com/ethersphere/bee/pkg/postage/batchstore/mock"
-	postagetesting "github.com/ethersphere/bee/pkg/postage/testing"
-	mocks "github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/postage/batchservice"
+	"github.com/holisticode/bee/pkg/postage/batchstore/mock"
+	postagetesting "github.com/holisticode/bee/pkg/postage/testing"
+	mocks "github.com/holisticode/bee/pkg/statestore/mock"
+	"github.com/holisticode/bee/pkg/storage"
 )
 
 var (

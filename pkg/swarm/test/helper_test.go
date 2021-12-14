@@ -8,8 +8,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/swarm/test"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm/test"
 )
 
 // TestRandomAddressAt checks that RandomAddressAt generates a correct random address

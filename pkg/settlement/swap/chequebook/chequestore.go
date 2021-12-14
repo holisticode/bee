@@ -13,9 +13,9 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/transaction"
+	"github.com/holisticode/bee/pkg/crypto"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/transaction"
 )
 
 const (

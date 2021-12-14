@@ -12,12 +12,12 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ethersphere/bee/pkg/bigint"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/postage/postagecontract"
-	"github.com/ethersphere/bee/pkg/sctx"
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/bigint"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/postage/postagecontract"
+	"github.com/holisticode/bee/pkg/sctx"
+	"github.com/holisticode/bee/pkg/storage"
 	"github.com/gorilla/mux"
 )
 

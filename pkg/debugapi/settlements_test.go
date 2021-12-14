@@ -11,13 +11,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/bigint"
-	"github.com/ethersphere/bee/pkg/debugapi"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/settlement"
-	"github.com/ethersphere/bee/pkg/settlement/swap/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/bigint"
+	"github.com/holisticode/bee/pkg/debugapi"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/holisticode/bee/pkg/settlement"
+	"github.com/holisticode/bee/pkg/settlement/swap/mock"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 func TestSettlements(t *testing.T) {

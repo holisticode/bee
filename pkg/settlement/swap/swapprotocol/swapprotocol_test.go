@@ -16,16 +16,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/pkg/settlement/swap/chequebook"
-	swapmock "github.com/ethersphere/bee/pkg/settlement/swap/mock"
-	priceoraclemock "github.com/ethersphere/bee/pkg/settlement/swap/priceoracle/mock"
-	"github.com/ethersphere/bee/pkg/settlement/swap/swapprotocol"
-	"github.com/ethersphere/bee/pkg/settlement/swap/swapprotocol/pb"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/p2p/protobuf"
+	"github.com/holisticode/bee/pkg/p2p/streamtest"
+	"github.com/holisticode/bee/pkg/settlement/swap/chequebook"
+	swapmock "github.com/holisticode/bee/pkg/settlement/swap/mock"
+	priceoraclemock "github.com/holisticode/bee/pkg/settlement/swap/priceoracle/mock"
+	"github.com/holisticode/bee/pkg/settlement/swap/swapprotocol"
+	"github.com/holisticode/bee/pkg/settlement/swap/swapprotocol/pb"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 func TestEmitCheques(t *testing.T) {

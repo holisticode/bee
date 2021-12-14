@@ -8,9 +8,9 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/ethersphere/bee/pkg/encryption"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/encryption"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
 	"golang.org/x/crypto/sha3"
 )
 

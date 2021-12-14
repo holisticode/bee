@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/tracing"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/tracing"
 	"github.com/opentracing/opentracing-go"
 )
 

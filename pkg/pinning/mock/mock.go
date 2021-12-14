@@ -7,8 +7,8 @@ package mock
 import (
 	"context"
 
-	"github.com/ethersphere/bee/pkg/pinning"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/pinning"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var _ pinning.Interface = (*ServiceMock)(nil)

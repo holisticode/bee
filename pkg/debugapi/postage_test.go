@@ -15,17 +15,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/bigint"
-	"github.com/ethersphere/bee/pkg/debugapi"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/postage/batchstore/mock"
-	mockpost "github.com/ethersphere/bee/pkg/postage/mock"
-	"github.com/ethersphere/bee/pkg/postage/postagecontract"
-	contractMock "github.com/ethersphere/bee/pkg/postage/postagecontract/mock"
-	postagetesting "github.com/ethersphere/bee/pkg/postage/testing"
-	"github.com/ethersphere/bee/pkg/sctx"
+	"github.com/holisticode/bee/pkg/bigint"
+	"github.com/holisticode/bee/pkg/debugapi"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/holisticode/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/postage/batchstore/mock"
+	mockpost "github.com/holisticode/bee/pkg/postage/mock"
+	"github.com/holisticode/bee/pkg/postage/postagecontract"
+	contractMock "github.com/holisticode/bee/pkg/postage/postagecontract/mock"
+	postagetesting "github.com/holisticode/bee/pkg/postage/testing"
+	"github.com/holisticode/bee/pkg/sctx"
 )
 
 func TestPostageCreateStamp(t *testing.T) {

@@ -1,14 +1,14 @@
 # Swarm Bee
 
-[![Go](https://github.com/ethersphere/bee/workflows/Go/badge.svg)](https://github.com/ethersphere/bee/actions)
-[![Go Reference](https://pkg.go.dev/badge/github.com/ethersphere/bee.svg)](https://pkg.go.dev/github.com/ethersphere/bee)
-[![codecov](https://codecov.io/gh/ethersphere/bee/branch/master/graph/badge.svg?token=63RNRLO3RU)](https://codecov.io/gh/ethersphere/bee)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ethersphere/bee)](https://goreportcard.com/report/github.com/ethersphere/bee)
+[![Go](https://github.com/holisticode/bee/workflows/Go/badge.svg)](https://github.com/holisticode/bee/actions)
+[![Go Reference](https://pkg.go.dev/badge/github.com/holisticode/bee.svg)](https://pkg.go.dev/github.com/holisticode/bee)
+[![codecov](https://codecov.io/gh/holisticode/bee/branch/master/graph/badge.svg?token=63RNRLO3RU)](https://codecov.io/gh/holisticode/bee)
+[![Go Report Card](https://goreportcard.com/badge/github.com/holisticode/bee)](https://goreportcard.com/report/github.com/holisticode/bee)
 [![API OpenAPI Specs](https://img.shields.io/badge/openapi-api-blue)](https://docs.ethswarm.org/api/)
 [![Debug API OpenAPI Specs](https://img.shields.io/badge/openapi-debugapi-lightblue)](https://docs.ethswarm.org/debug-api/)
-![Docker Pulls](https://img.shields.io/docker/pulls/ethersphere/bee)
-![GitHub all releases](https://img.shields.io/github/downloads/ethersphere/bee/total)
-![GitHub](https://img.shields.io/github/license/ethersphere/bee)
+![Docker Pulls](https://img.shields.io/docker/pulls/holisticode/bee)
+![GitHub all releases](https://img.shields.io/github/downloads/holisticode/bee/total)
+![GitHub](https://img.shields.io/github/license/holisticode/bee)
 
 
 ## DISCLAIMER
@@ -27,7 +27,7 @@ There are two versioning schemes used in Bee that you should be aware of. The ma
 strict Semantic Versioning. Bee hosts different peer-to-peer wire protocol implementations and individual protocol breaking changes would necessitate a bump in the major part of the version. Breaking changes are expected with bumps of the minor version component. New (backward-compatible) features and bug fixes are expected with a bump of the patch component. Major version bumps are reserved for significant changes in Swarm's incentive structure.
 
 
-The second set of versions that are important are the Bee's API versions (denoted in our [Bee](https://github.com/ethersphere/bee/blob/master/openapi/Swarm.yaml) and [Bee Debug](https://github.com/ethersphere/bee/blob/master/openapi/SwarmDebug.yaml) OpenAPI specifications). These versions **do follow** 
+The second set of versions that are important are the Bee's API versions (denoted in our [Bee](https://github.com/holisticode/bee/blob/master/openapi/Swarm.yaml) and [Bee Debug](https://github.com/holisticode/bee/blob/master/openapi/SwarmDebug.yaml) OpenAPI specifications). These versions **do follow** 
 Semantic Versioning and hence you should follow these for breaking changes.
 
 ## Contributing

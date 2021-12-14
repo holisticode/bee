@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/shed"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/shed"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

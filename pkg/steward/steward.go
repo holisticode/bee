@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/bee/pkg/pushsync"
-	"github.com/ethersphere/bee/pkg/retrieval"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/topology"
-	"github.com/ethersphere/bee/pkg/traversal"
+	"github.com/holisticode/bee/pkg/pushsync"
+	"github.com/holisticode/bee/pkg/retrieval"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/topology"
+	"github.com/holisticode/bee/pkg/traversal"
 	"golang.org/x/sync/errgroup"
 )
 

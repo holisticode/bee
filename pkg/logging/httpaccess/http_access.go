@@ -12,8 +12,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/tracing"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/tracing"
 )
 
 // NewHTTPAccessLogHandler creates a handler that will log a message after a

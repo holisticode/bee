@@ -14,10 +14,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethersphere/bee/pkg/chainsync"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/transaction/backendmock"
+	"github.com/holisticode/bee/pkg/chainsync"
+	"github.com/holisticode/bee/pkg/p2p/streamtest"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/transaction/backendmock"
 )
 
 func TestProve(t *testing.T) {

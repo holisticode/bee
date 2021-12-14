@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/swarm/test"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm/test"
 
-	"github.com/ethersphere/bee/pkg/blocker"
+	"github.com/holisticode/bee/pkg/blocker"
 )
 
 func TestBlocksAfterFlagTimeout(t *testing.T) {

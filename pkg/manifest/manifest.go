@@ -10,8 +10,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/file"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 const DefaultManifestType = ManifestMantarayContentType

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/p2p/libp2p/internal/breaker"
+	"github.com/holisticode/bee/pkg/p2p/libp2p/internal/breaker"
 )
 
 func TestExecute(t *testing.T) {

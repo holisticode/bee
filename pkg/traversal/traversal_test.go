@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/file/loadsave"
-	"github.com/ethersphere/bee/pkg/file/pipeline"
-	"github.com/ethersphere/bee/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/pkg/manifest"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/traversal"
+	"github.com/holisticode/bee/pkg/file/loadsave"
+	"github.com/holisticode/bee/pkg/file/pipeline"
+	"github.com/holisticode/bee/pkg/file/pipeline/builder"
+	"github.com/holisticode/bee/pkg/manifest"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage/mock"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/traversal"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/soc"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/soc"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 // TestValid verifies that the validator can detect

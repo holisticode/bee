@@ -10,7 +10,7 @@ jobs:
     steps:
       - name:  Activity check
         run: |
-          COMMIT=$(curl -s https://api.github.com/repos/ethersphere/bee/commits | jq -r '.[0]')
+          COMMIT=$(curl -s https://api.github.com/repos/holisticode/bee/commits | jq -r '.[0]')
           AUTHOR=$(jq -r '.commit.author.name' <<<$COMMIT)
           URL=$(jq -r '.html_url' <<<$COMMIT)
           DAYS=$(( ( $(date --utc +%s) - $(date --utc -d $(jq -r '.commit.author.date' <<<$COMMIT) +%s)) / 86400 ))
@@ -27,5 +27,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REPO_GHA_PAT }}
-          repository: ethersphere/bee-argo
+          repository: holisticode/bee-argo
           event-type: trigger-install

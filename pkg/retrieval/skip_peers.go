@@ -7,7 +7,7 @@ package retrieval
 import (
 	"sync"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 type skipPeers struct {

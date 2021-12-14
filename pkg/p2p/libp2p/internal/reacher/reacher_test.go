@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/libp2p/internal/reacher"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/swarm/test"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/p2p/libp2p/internal/reacher"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm/test"
 	ma "github.com/multiformats/go-multiaddr"
 	"go.uber.org/atomic"
 )

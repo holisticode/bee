@@ -12,10 +12,10 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/cac"
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/soc"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/cac"
+	"github.com/holisticode/bee/pkg/crypto"
+	"github.com/holisticode/bee/pkg/soc"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 func TestNew(t *testing.T) {

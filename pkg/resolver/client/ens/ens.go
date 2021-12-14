@@ -14,8 +14,8 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	goens "github.com/wealdtech/go-ens/v3"
 
-	"github.com/ethersphere/bee/pkg/resolver/client"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/resolver/client"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 const (

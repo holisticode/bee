@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/resolver/multiresolver"
+	"github.com/holisticode/bee/pkg/resolver/multiresolver"
 )
 
 func TestParseConnectionStrings(t *testing.T) {

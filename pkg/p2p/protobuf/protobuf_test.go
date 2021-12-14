@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf/internal/pb"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/p2p/protobuf"
+	"github.com/holisticode/bee/pkg/p2p/protobuf/internal/pb"
 )
 
 func TestReader_ReadMsg(t *testing.T) {

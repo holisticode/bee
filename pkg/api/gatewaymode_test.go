@@ -10,15 +10,15 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/api"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/logging"
-	mockpost "github.com/ethersphere/bee/pkg/postage/mock"
-	statestore "github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	testingc "github.com/ethersphere/bee/pkg/storage/testing"
-	"github.com/ethersphere/bee/pkg/tags"
+	"github.com/holisticode/bee/pkg/api"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/holisticode/bee/pkg/logging"
+	mockpost "github.com/holisticode/bee/pkg/postage/mock"
+	statestore "github.com/holisticode/bee/pkg/statestore/mock"
+	"github.com/holisticode/bee/pkg/storage/mock"
+	testingc "github.com/holisticode/bee/pkg/storage/testing"
+	"github.com/holisticode/bee/pkg/tags"
 )
 
 func TestGatewayMode(t *testing.T) {

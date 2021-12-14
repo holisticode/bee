@@ -9,9 +9,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/bzz"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/bzz"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/swarm"
 	ma "github.com/multiformats/go-multiaddr"
 )
 

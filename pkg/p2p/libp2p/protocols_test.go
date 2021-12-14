@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/libp2p"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/p2p/libp2p"
 	libp2pm "github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-core/host"
 	swarmt "github.com/libp2p/go-libp2p-swarm/testing"

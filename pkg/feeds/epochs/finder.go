@@ -8,9 +8,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethersphere/bee/pkg/feeds"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/feeds"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var _ feeds.Lookup = (*finder)(nil)

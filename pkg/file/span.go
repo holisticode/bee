@@ -7,7 +7,7 @@ package file
 import (
 	"math"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var Spans []int64

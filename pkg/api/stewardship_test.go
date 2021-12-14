@@ -10,15 +10,15 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/api"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/logging"
-	statestore "github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/steward/mock"
-	smock "github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/tags"
+	"github.com/holisticode/bee/pkg/api"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/holisticode/bee/pkg/logging"
+	statestore "github.com/holisticode/bee/pkg/statestore/mock"
+	"github.com/holisticode/bee/pkg/steward/mock"
+	smock "github.com/holisticode/bee/pkg/storage/mock"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/tags"
 )
 
 func TestStewardship(t *testing.T) {

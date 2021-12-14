@@ -16,17 +16,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/bitvector"
-	"github.com/ethersphere/bee/pkg/cac"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/pullsync/pb"
-	"github.com/ethersphere/bee/pkg/pullsync/pullstorage"
-	"github.com/ethersphere/bee/pkg/soc"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/bitvector"
+	"github.com/holisticode/bee/pkg/cac"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/p2p/protobuf"
+	"github.com/holisticode/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/pullsync/pb"
+	"github.com/holisticode/bee/pkg/pullsync/pullstorage"
+	"github.com/holisticode/bee/pkg/soc"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 const (

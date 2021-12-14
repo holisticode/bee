@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethersphere/bee"
-	"github.com/ethersphere/bee/pkg/logging"
+	"github.com/holisticode/bee"
+	"github.com/holisticode/bee/pkg/logging"
 )
 
 const (

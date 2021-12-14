@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/node"
+	"github.com/holisticode/bee/pkg/crypto"
+	"github.com/holisticode/bee/pkg/node"
 	"github.com/spf13/cobra"
 )
 

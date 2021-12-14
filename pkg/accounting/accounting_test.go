@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/accounting"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	p2pmock "github.com/ethersphere/bee/pkg/p2p/mock"
-	"github.com/ethersphere/bee/pkg/statestore/mock"
+	"github.com/holisticode/bee/pkg/accounting"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/p2p"
+	p2pmock "github.com/holisticode/bee/pkg/p2p/mock"
+	"github.com/holisticode/bee/pkg/statestore/mock"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 const (

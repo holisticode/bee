@@ -14,7 +14,7 @@ import (
 	"golang.org/x/sys/windows/svc/debug"
 	"golang.org/x/sys/windows/svc/eventlog"
 
-	"github.com/ethersphere/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/logging"
 	"github.com/sirupsen/logrus"
 )
 

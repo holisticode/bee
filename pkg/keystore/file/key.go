@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/keystore"
+	"github.com/holisticode/bee/pkg/crypto"
+	"github.com/holisticode/bee/pkg/keystore"
 	"golang.org/x/crypto/scrypt"
 	"golang.org/x/crypto/sha3"
 )

@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/file/splitter/internal"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/file"
+	"github.com/holisticode/bee/pkg/file/splitter/internal"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 type putWrapper struct {

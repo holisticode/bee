@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethersphere/bee/pkg/crypto"
+	"github.com/holisticode/bee/pkg/crypto"
 )
 
 // Service is the file-based keystore.Service implementation.

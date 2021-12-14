@@ -14,11 +14,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethersphere/bee/pkg/chainsyncer"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/topology/mock"
-	"github.com/ethersphere/bee/pkg/transaction/backendmock"
+	"github.com/holisticode/bee/pkg/chainsyncer"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/topology/mock"
+	"github.com/holisticode/bee/pkg/transaction/backendmock"
 )
 
 func TestChainsyncer(t *testing.T) {

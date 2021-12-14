@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethersphere/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/postage"
 )
 
 type optionFunc func(*mockPostage)

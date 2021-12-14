@@ -7,7 +7,7 @@ package mock
 import (
 	"context"
 
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 // Steward represents steward.Interface mock.

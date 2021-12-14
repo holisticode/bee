@@ -5,7 +5,7 @@
 package mock
 
 import (
-	"github.com/ethersphere/bee/pkg/tags"
+	"github.com/holisticode/bee/pkg/tags"
 )
 
 type MockPusher struct {

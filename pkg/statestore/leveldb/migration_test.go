@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/storage"
 )
 
 func TestOneMigration(t *testing.T) {

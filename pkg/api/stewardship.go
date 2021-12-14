@@ -7,7 +7,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/ethersphere/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp"
 	"github.com/gorilla/mux"
 )
 

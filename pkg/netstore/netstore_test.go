@@ -14,16 +14,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/netstore"
-	"github.com/ethersphere/bee/pkg/postage"
-	postagetesting "github.com/ethersphere/bee/pkg/postage/testing"
-	"github.com/ethersphere/bee/pkg/pss"
-	"github.com/ethersphere/bee/pkg/recovery"
-	"github.com/ethersphere/bee/pkg/sctx"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/netstore"
+	"github.com/holisticode/bee/pkg/postage"
+	postagetesting "github.com/holisticode/bee/pkg/postage/testing"
+	"github.com/holisticode/bee/pkg/pss"
+	"github.com/holisticode/bee/pkg/recovery"
+	"github.com/holisticode/bee/pkg/sctx"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage/mock"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var chunkData = []byte("mockdata")

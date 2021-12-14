@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/postage"
-	postagetesting "github.com/ethersphere/bee/pkg/postage/testing"
-	"github.com/ethersphere/bee/pkg/pss"
-	"github.com/ethersphere/bee/pkg/pushsync"
-	pushsyncmock "github.com/ethersphere/bee/pkg/pushsync/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/crypto"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/postage"
+	postagetesting "github.com/holisticode/bee/pkg/postage/testing"
+	"github.com/holisticode/bee/pkg/pss"
+	"github.com/holisticode/bee/pkg/pushsync"
+	pushsyncmock "github.com/holisticode/bee/pkg/pushsync/mock"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 // TestSend creates a trojan chunk and sends it using push sync

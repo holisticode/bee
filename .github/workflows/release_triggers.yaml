@@ -21,7 +21,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.HOMEBREW_TAP_PAT }}
-          repository: ethersphere/bee-factory
+          repository: holisticode/bee-factory
           event-type: build-images
           client-payload: '{"tag": "${{ steps.get-version.outputs.VERSION }}"}'
 

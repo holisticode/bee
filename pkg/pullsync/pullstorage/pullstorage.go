@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
 	"resenje.org/singleflight"
 )
 

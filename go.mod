@@ -1,4 +1,4 @@
-module github.com/ethersphere/bee
+module github.com/holisticode/bee
 
 go 1.17
 

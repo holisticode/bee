@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage"
 )
 
 const (

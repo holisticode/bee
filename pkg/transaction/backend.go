@@ -16,7 +16,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethersphere/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/logging"
 )
 
 // Backend is the minimum of blockchain backend functions we need.

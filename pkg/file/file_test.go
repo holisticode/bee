@@ -12,13 +12,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/file/joiner"
-	"github.com/ethersphere/bee/pkg/file/pipeline/builder"
-	test "github.com/ethersphere/bee/pkg/file/testing"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/file"
+	"github.com/holisticode/bee/pkg/file/joiner"
+	"github.com/holisticode/bee/pkg/file/pipeline/builder"
+	test "github.com/holisticode/bee/pkg/file/testing"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage/mock"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var (

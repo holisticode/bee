@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/intervalstore"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/puller"
-	mockps "github.com/ethersphere/bee/pkg/pullsync/mock"
-	"github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/swarm/test"
-	mockk "github.com/ethersphere/bee/pkg/topology/kademlia/mock"
+	"github.com/holisticode/bee/pkg/intervalstore"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/puller"
+	mockps "github.com/holisticode/bee/pkg/pullsync/mock"
+	"github.com/holisticode/bee/pkg/statestore/mock"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm/test"
+	mockk "github.com/holisticode/bee/pkg/topology/kademlia/mock"
 )
 
 const max = math.MaxUint64

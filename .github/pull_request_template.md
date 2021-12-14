@@ -1,6 +1,6 @@
 ### Checklist
 
-- [ ] I have read the [coding guide](https://github.com/ethersphere/bee/blob/master/CODING.md)
+- [ ] I have read the [coding guide](https://github.com/holisticode/bee/blob/master/CODING.md)
 - [ ] My change requires a documentation update and I have done it
 - [ ] I have added tests to cover my changes.
 

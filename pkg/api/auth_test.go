@@ -10,11 +10,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/api"
-	"github.com/ethersphere/bee/pkg/auth/mock"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/jsonhttp/jsonhttptest"
-	"github.com/ethersphere/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/api"
+	"github.com/holisticode/bee/pkg/auth/mock"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp/jsonhttptest"
+	"github.com/holisticode/bee/pkg/logging"
 )
 
 func TestAuth(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/bmt"
-	"github.com/ethersphere/bee/pkg/bmt/reference"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/bmt"
+	"github.com/holisticode/bee/pkg/bmt/reference"
+	"github.com/holisticode/bee/pkg/swarm"
 	"golang.org/x/sync/errgroup"
 )
 

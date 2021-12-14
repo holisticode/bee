@@ -17,13 +17,13 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethersphere/bee/pkg/localstore"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/pullsync/pullstorage"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	stesting "github.com/ethersphere/bee/pkg/storage/testing"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/localstore"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/pullsync/pullstorage"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage/mock"
+	stesting "github.com/holisticode/bee/pkg/storage/testing"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var (

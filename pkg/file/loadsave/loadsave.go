@@ -11,12 +11,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethersphere/bee/pkg/file"
-	"github.com/ethersphere/bee/pkg/file/joiner"
-	"github.com/ethersphere/bee/pkg/file/pipeline"
-	"github.com/ethersphere/bee/pkg/file/pipeline/builder"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/file"
+	"github.com/holisticode/bee/pkg/file/joiner"
+	"github.com/holisticode/bee/pkg/file/pipeline"
+	"github.com/holisticode/bee/pkg/file/pipeline/builder"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var readonlyLoadsaveError = errors.New("readonly manifest loadsaver")

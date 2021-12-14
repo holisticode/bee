@@ -4,7 +4,7 @@
 
 package api
 
-import "github.com/ethersphere/bee/pkg/swarm"
+import "github.com/holisticode/bee/pkg/swarm"
 
 type Server = server
 

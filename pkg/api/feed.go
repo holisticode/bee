@@ -15,13 +15,13 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/feeds"
-	"github.com/ethersphere/bee/pkg/file/loadsave"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/manifest"
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/soc"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/feeds"
+	"github.com/holisticode/bee/pkg/file/loadsave"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/manifest"
+	"github.com/holisticode/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/soc"
+	"github.com/holisticode/bee/pkg/swarm"
 	"github.com/gorilla/mux"
 )
 

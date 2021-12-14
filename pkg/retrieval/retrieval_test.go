@@ -15,20 +15,20 @@ import (
 	"testing"
 	"time"
 
-	accountingmock "github.com/ethersphere/bee/pkg/accounting/mock"
+	accountingmock "github.com/holisticode/bee/pkg/accounting/mock"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	pricermock "github.com/ethersphere/bee/pkg/pricer/mock"
-	"github.com/ethersphere/bee/pkg/retrieval"
-	pb "github.com/ethersphere/bee/pkg/retrieval/pb"
-	"github.com/ethersphere/bee/pkg/storage"
-	storemock "github.com/ethersphere/bee/pkg/storage/mock"
-	testingc "github.com/ethersphere/bee/pkg/storage/testing"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/topology"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/p2p/protobuf"
+	"github.com/holisticode/bee/pkg/p2p/streamtest"
+	pricermock "github.com/holisticode/bee/pkg/pricer/mock"
+	"github.com/holisticode/bee/pkg/retrieval"
+	pb "github.com/holisticode/bee/pkg/retrieval/pb"
+	"github.com/holisticode/bee/pkg/storage"
+	storemock "github.com/holisticode/bee/pkg/storage/mock"
+	testingc "github.com/holisticode/bee/pkg/storage/testing"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/topology"
 )
 
 var (

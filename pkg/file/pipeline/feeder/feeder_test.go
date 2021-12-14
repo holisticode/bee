@@ -10,8 +10,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/file/pipeline"
-	"github.com/ethersphere/bee/pkg/file/pipeline/feeder"
+	"github.com/holisticode/bee/pkg/file/pipeline"
+	"github.com/holisticode/bee/pkg/file/pipeline/feeder"
 )
 
 // TestFeeder tests that partial writes work correctly.

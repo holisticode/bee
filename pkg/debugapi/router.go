@@ -15,9 +15,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"resenje.org/web"
 
-	"github.com/ethersphere/bee/pkg/auth"
-	"github.com/ethersphere/bee/pkg/jsonhttp"
-	"github.com/ethersphere/bee/pkg/logging/httpaccess"
+	"github.com/holisticode/bee/pkg/auth"
+	"github.com/holisticode/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/logging/httpaccess"
 )
 
 // newBasicRouter constructs only the routes that do not depend on the injected dependencies:

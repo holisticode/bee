@@ -6,7 +6,7 @@ package bigint_test
 
 import (
 	"encoding/json"
-	"github.com/ethersphere/bee/pkg/bigint"
+	"github.com/holisticode/bee/pkg/bigint"
 	"math"
 	"math/big"
 	"reflect"

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/postage"
-	"github.com/ethersphere/bee/pkg/shed"
+	"github.com/holisticode/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/shed"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

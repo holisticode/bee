@@ -4,8 +4,8 @@ The docker-compose provides an app container for Bee itself and a signer contain
 To prepare your machine to run docker compose execute
 ```
 mkdir -p bee && cd bee
-wget -q https://raw.githubusercontent.com/ethersphere/bee/master/packaging/docker/docker-compose.yml
-wget -q https://raw.githubusercontent.com/ethersphere/bee/master/packaging/docker/env -O .env
+wget -q https://raw.githubusercontent.com/holisticode/bee/master/packaging/docker/docker-compose.yml
+wget -q https://raw.githubusercontent.com/holisticode/bee/master/packaging/docker/env -O .env
 ```
 Set all configuration variables inside `.env`
 

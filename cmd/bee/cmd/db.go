@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/localstore"
-	"github.com/ethersphere/bee/pkg/statestore/leveldb"
+	"github.com/holisticode/bee/pkg/localstore"
+	"github.com/holisticode/bee/pkg/statestore/leveldb"
 	"github.com/spf13/cobra"
 )
 

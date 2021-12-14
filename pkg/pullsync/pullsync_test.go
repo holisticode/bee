@@ -10,14 +10,14 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	postagetesting "github.com/ethersphere/bee/pkg/postage/testing"
-	"github.com/ethersphere/bee/pkg/pullsync"
-	"github.com/ethersphere/bee/pkg/pullsync/pullstorage/mock"
-	testingc "github.com/ethersphere/bee/pkg/storage/testing"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/p2p"
+	"github.com/holisticode/bee/pkg/p2p/streamtest"
+	postagetesting "github.com/holisticode/bee/pkg/postage/testing"
+	"github.com/holisticode/bee/pkg/pullsync"
+	"github.com/holisticode/bee/pkg/pullsync/pullstorage/mock"
+	testingc "github.com/holisticode/bee/pkg/storage/testing"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var (

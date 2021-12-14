@@ -10,8 +10,8 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethersphere/bee/pkg/accounting"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/accounting"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 // Service is the mock Accounting service.

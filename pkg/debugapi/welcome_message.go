@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ethersphere/bee/pkg/jsonhttp"
+	"github.com/holisticode/bee/pkg/jsonhttp"
 )
 
 const welcomeMessageMaxRequestSize = 512

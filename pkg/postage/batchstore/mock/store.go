@@ -9,7 +9,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethersphere/bee/pkg/postage"
+	"github.com/holisticode/bee/pkg/postage"
 )
 
 var _ postage.Storer = (*BatchStore)(nil)

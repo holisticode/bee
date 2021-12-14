@@ -10,13 +10,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/file/pipeline"
-	"github.com/ethersphere/bee/pkg/file/pipeline/bmt"
-	"github.com/ethersphere/bee/pkg/file/pipeline/hashtrie"
-	"github.com/ethersphere/bee/pkg/file/pipeline/store"
-	"github.com/ethersphere/bee/pkg/storage"
-	"github.com/ethersphere/bee/pkg/storage/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/file/pipeline"
+	"github.com/holisticode/bee/pkg/file/pipeline/bmt"
+	"github.com/holisticode/bee/pkg/file/pipeline/hashtrie"
+	"github.com/holisticode/bee/pkg/file/pipeline/store"
+	"github.com/holisticode/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage/mock"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 var (
@@ -164,7 +164,7 @@ func TestLevels_TrieFull(t *testing.T) {
 }
 
 // TestRegression is a regression test for the bug
-// described in https://github.com/ethersphere/bee/issues/1175
+// described in https://github.com/holisticode/bee/issues/1175
 func TestRegression(t *testing.T) {
 	var (
 		branching = 128

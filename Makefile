@@ -24,12 +24,12 @@ COMMIT_HASH ?= "$(shell git describe --long --dirty --always --match "" || true)
 CLEAN_COMMIT ?= "$(shell git describe --long --always --match "" || true)"
 COMMIT_TIME ?= "$(shell git show -s --format=%ct $(CLEAN_COMMIT) || true)"
 LDFLAGS ?= -s -w \
--X github.com/ethersphere/bee.commitHash="$(COMMIT_HASH)" \
--X github.com/ethersphere/bee.commitTime="$(COMMIT_TIME)" \
--X github.com/ethersphere/bee/pkg/api.Version="$(BEE_API_VERSION)" \
--X github.com/ethersphere/bee/pkg/debugapi.Version="$(BEE_DEBUG_API_VERSION)" \
--X github.com/ethersphere/bee/pkg/p2p/libp2p.reachabilityOverridePublic="$(REACHABILITY_OVERRIDE_PUBLIC)" \
--X github.com/ethersphere/bee/pkg/postage/listener.batchFactorOverridePublic="$(BATCHFACTOR_OVERRIDE_PUBLIC)"
+-X github.com/holisticode/bee.commitHash="$(COMMIT_HASH)" \
+-X github.com/holisticode/bee.commitTime="$(COMMIT_TIME)" \
+-X github.com/holisticode/bee/pkg/api.Version="$(BEE_API_VERSION)" \
+-X github.com/holisticode/bee/pkg/debugapi.Version="$(BEE_DEBUG_API_VERSION)" \
+-X github.com/holisticode/bee/pkg/p2p/libp2p.reachabilityOverridePublic="$(REACHABILITY_OVERRIDE_PUBLIC)" \
+-X github.com/holisticode/bee/pkg/postage/listener.batchFactorOverridePublic="$(BATCHFACTOR_OVERRIDE_PUBLIC)"
 
 .PHONY: all
 all: build lint vet test-race binary
@@ -46,9 +46,9 @@ dist:
 .PHONY: beekeeper
 beekeeper:
 ifeq ($(BEEKEEPER_BRANCH), master)
-	curl -sSfL https://raw.githubusercontent.com/ethersphere/beekeeper/master/scripts/install.sh | BEEKEEPER_INSTALL_DIR=$(BEEKEEPER_INSTALL_DIR) USE_SUDO=$(BEEKEEPER_USE_SUDO) bash
+	curl -sSfL https://raw.githubusercontent.com/holisticode/beekeeper/master/scripts/install.sh | BEEKEEPER_INSTALL_DIR=$(BEEKEEPER_INSTALL_DIR) USE_SUDO=$(BEEKEEPER_USE_SUDO) bash
 else
-	git clone -b $(BEEKEEPER_BRANCH) https://github.com/ethersphere/beekeeper.git && cd beekeeper && mkdir -p $(BEEKEEPER_INSTALL_DIR) && make binary
+	git clone -b $(BEEKEEPER_BRANCH) https://github.com/holisticode/beekeeper.git && cd beekeeper && mkdir -p $(BEEKEEPER_INSTALL_DIR) && make binary
 ifeq ($(BEEKEEPER_USE_SUDO), true)
 	sudo mv beekeeper/dist/beekeeper $(BEEKEEPER_INSTALL_DIR)
 else
@@ -56,12 +56,12 @@ else
 endif
 	rm -rf beekeeper
 endif
-	test -f ~/.beekeeper.yaml || curl -sSfL https://raw.githubusercontent.com/ethersphere/beekeeper/$(BEEKEEPER_BRANCH)/config/beekeeper-local.yaml -o ~/.beekeeper.yaml
-	mkdir -p ~/.beekeeper && curl -sSfL https://raw.githubusercontent.com/ethersphere/beekeeper/$(BEEKEEPER_BRANCH)/config/local.yaml -o ~/.beekeeper/local.yaml
+	test -f ~/.beekeeper.yaml || curl -sSfL https://raw.githubusercontent.com/holisticode/beekeeper/$(BEEKEEPER_BRANCH)/config/beekeeper-local.yaml -o ~/.beekeeper.yaml
+	mkdir -p ~/.beekeeper && curl -sSfL https://raw.githubusercontent.com/holisticode/beekeeper/$(BEEKEEPER_BRANCH)/config/local.yaml -o ~/.beekeeper/local.yaml
 
 .PHONY: beelocal
 beelocal:
-	curl -sSfL https://raw.githubusercontent.com/ethersphere/beelocal/$(BEELOCAL_BRANCH)/beelocal.sh | bash
+	curl -sSfL https://raw.githubusercontent.com/holisticode/beelocal/$(BEELOCAL_BRANCH)/beelocal.sh | bash
 
 .PHONY: deploylocal
 deploylocal:

@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/resolver"
-	"github.com/ethersphere/bee/pkg/resolver/mock"
-	"github.com/ethersphere/bee/pkg/resolver/multiresolver"
-	"github.com/ethersphere/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/resolver"
+	"github.com/holisticode/bee/pkg/resolver/mock"
+	"github.com/holisticode/bee/pkg/resolver/multiresolver"
+	"github.com/holisticode/bee/pkg/swarm"
 )
 
 type Address = swarm.Address

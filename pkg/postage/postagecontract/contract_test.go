@@ -14,13 +14,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethersphere/bee/pkg/postage"
-	postagestoreMock "github.com/ethersphere/bee/pkg/postage/batchstore/mock"
-	postageMock "github.com/ethersphere/bee/pkg/postage/mock"
-	"github.com/ethersphere/bee/pkg/postage/postagecontract"
-	postagetesting "github.com/ethersphere/bee/pkg/postage/testing"
-	"github.com/ethersphere/bee/pkg/transaction"
-	transactionMock "github.com/ethersphere/bee/pkg/transaction/mock"
+	"github.com/holisticode/bee/pkg/postage"
+	postagestoreMock "github.com/holisticode/bee/pkg/postage/batchstore/mock"
+	postageMock "github.com/holisticode/bee/pkg/postage/mock"
+	"github.com/holisticode/bee/pkg/postage/postagecontract"
+	postagetesting "github.com/holisticode/bee/pkg/postage/testing"
+	"github.com/holisticode/bee/pkg/transaction"
+	transactionMock "github.com/holisticode/bee/pkg/transaction/mock"
 )
 
 func TestCreateBatch(t *testing.T) {

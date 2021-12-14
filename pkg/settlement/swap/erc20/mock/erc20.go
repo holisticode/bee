@@ -10,7 +10,7 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/settlement/swap/erc20"
+	"github.com/holisticode/bee/pkg/settlement/swap/erc20"
 )
 
 type Service struct {

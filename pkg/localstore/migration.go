@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethersphere/bee/pkg/shed"
+	"github.com/holisticode/bee/pkg/shed"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

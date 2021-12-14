@@ -10,7 +10,7 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethersphere/bee/pkg/settlement/swap/chequebook"
+	"github.com/holisticode/bee/pkg/settlement/swap/chequebook"
 )
 
 // Service is the mock chequebook service.

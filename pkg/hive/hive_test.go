@@ -19,17 +19,17 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ma "github.com/multiformats/go-multiaddr"
 
-	ab "github.com/ethersphere/bee/pkg/addressbook"
-	"github.com/ethersphere/bee/pkg/bzz"
-	"github.com/ethersphere/bee/pkg/crypto"
-	"github.com/ethersphere/bee/pkg/hive"
-	"github.com/ethersphere/bee/pkg/hive/pb"
-	"github.com/ethersphere/bee/pkg/logging"
-	"github.com/ethersphere/bee/pkg/p2p/protobuf"
-	"github.com/ethersphere/bee/pkg/p2p/streamtest"
-	"github.com/ethersphere/bee/pkg/statestore/mock"
-	"github.com/ethersphere/bee/pkg/swarm"
-	"github.com/ethersphere/bee/pkg/swarm/test"
+	ab "github.com/holisticode/bee/pkg/addressbook"
+	"github.com/holisticode/bee/pkg/bzz"
+	"github.com/holisticode/bee/pkg/crypto"
+	"github.com/holisticode/bee/pkg/hive"
+	"github.com/holisticode/bee/pkg/hive/pb"
+	"github.com/holisticode/bee/pkg/logging"
+	"github.com/holisticode/bee/pkg/p2p/protobuf"
+	"github.com/holisticode/bee/pkg/p2p/streamtest"
+	"github.com/holisticode/bee/pkg/statestore/mock"
+	"github.com/holisticode/bee/pkg/swarm"
+	"github.com/holisticode/bee/pkg/swarm/test"
 )
 
 var (

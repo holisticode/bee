@@ -9,8 +9,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethersphere/bee/pkg/shed"
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/shed"
+	"github.com/holisticode/bee/pkg/storage"
 )
 
 func TestPinCounter(t *testing.T) {

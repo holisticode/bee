@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersphere/bee/pkg/storage"
+	"github.com/holisticode/bee/pkg/storage"
 )
 
 // TestHas validates that Has method is returning true for
